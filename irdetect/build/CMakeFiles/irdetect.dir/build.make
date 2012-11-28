@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect
+CMAKE_SOURCE_DIR = /home/darivianos/workspace/irdetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect/build
+CMAKE_BINARY_DIR = /home/darivianos/workspace/irdetect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/irdetect.dir/depend.make
@@ -71,17 +71,17 @@ CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/share/rosservice/manifest.xm
 CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/blob.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/blob.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blob.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/blob.o -c /home/darivianos/workspace/irdetect/src/blob.cpp
 
 CMakeFiles/irdetect.dir/src/blob.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/blob.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blob.cpp > CMakeFiles/irdetect.dir/src/blob.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/blob.cpp > CMakeFiles/irdetect.dir/src/blob.i
 
 CMakeFiles/irdetect.dir/src/blob.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/blob.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blob.cpp -o CMakeFiles/irdetect.dir/src/blob.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/blob.cpp -o CMakeFiles/irdetect.dir/src/blob.s
 
 CMakeFiles/irdetect.dir/src/blob.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/blob.o.requires
@@ -117,17 +117,17 @@ CMakeFiles/irdetect.dir/src/graylevels.o: /opt/ros/fuerte/share/rosservice/manif
 CMakeFiles/irdetect.dir/src/graylevels.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/graylevels.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/graylevels.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/graylevels.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/graylevels.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/graylevels.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/graylevels.o -c /home/darivianos/workspace/irdetect/src/graylevels.cpp
 
 CMakeFiles/irdetect.dir/src/graylevels.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/graylevels.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/graylevels.cpp > CMakeFiles/irdetect.dir/src/graylevels.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/graylevels.cpp > CMakeFiles/irdetect.dir/src/graylevels.i
 
 CMakeFiles/irdetect.dir/src/graylevels.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/graylevels.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/graylevels.cpp -o CMakeFiles/irdetect.dir/src/graylevels.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/graylevels.cpp -o CMakeFiles/irdetect.dir/src/graylevels.s
 
 CMakeFiles/irdetect.dir/src/graylevels.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/graylevels.o.requires
@@ -163,17 +163,17 @@ CMakeFiles/irdetect.dir/src/contrast.o: /opt/ros/fuerte/share/rosservice/manifes
 CMakeFiles/irdetect.dir/src/contrast.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/contrast.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/contrast.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/contrast.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/contrast.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/contrast.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/contrast.o -c /home/darivianos/workspace/irdetect/src/contrast.cpp
 
 CMakeFiles/irdetect.dir/src/contrast.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/contrast.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/contrast.cpp > CMakeFiles/irdetect.dir/src/contrast.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/contrast.cpp > CMakeFiles/irdetect.dir/src/contrast.i
 
 CMakeFiles/irdetect.dir/src/contrast.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/contrast.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/contrast.cpp -o CMakeFiles/irdetect.dir/src/contrast.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/contrast.cpp -o CMakeFiles/irdetect.dir/src/contrast.s
 
 CMakeFiles/irdetect.dir/src/contrast.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/contrast.o.requires
@@ -209,17 +209,17 @@ CMakeFiles/irdetect.dir/src/histogram.o: /opt/ros/fuerte/share/rosservice/manife
 CMakeFiles/irdetect.dir/src/histogram.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/histogram.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/histogram.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/histogram.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/histogram.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/histogram.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/histogram.o -c /home/darivianos/workspace/irdetect/src/histogram.cpp
 
 CMakeFiles/irdetect.dir/src/histogram.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/histogram.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/histogram.cpp > CMakeFiles/irdetect.dir/src/histogram.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/histogram.cpp > CMakeFiles/irdetect.dir/src/histogram.i
 
 CMakeFiles/irdetect.dir/src/histogram.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/histogram.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/histogram.cpp -o CMakeFiles/irdetect.dir/src/histogram.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/histogram.cpp -o CMakeFiles/irdetect.dir/src/histogram.s
 
 CMakeFiles/irdetect.dir/src/histogram.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/histogram.o.requires
@@ -255,17 +255,17 @@ CMakeFiles/irdetect.dir/src/diffusion.o: /opt/ros/fuerte/share/rosservice/manife
 CMakeFiles/irdetect.dir/src/diffusion.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/diffusion.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/diffusion.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/diffusion.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/diffusion.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/diffusion.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/diffusion.o -c /home/darivianos/workspace/irdetect/src/diffusion.cpp
 
 CMakeFiles/irdetect.dir/src/diffusion.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/diffusion.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/diffusion.cpp > CMakeFiles/irdetect.dir/src/diffusion.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/diffusion.cpp > CMakeFiles/irdetect.dir/src/diffusion.i
 
 CMakeFiles/irdetect.dir/src/diffusion.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/diffusion.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/diffusion.cpp -o CMakeFiles/irdetect.dir/src/diffusion.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/diffusion.cpp -o CMakeFiles/irdetect.dir/src/diffusion.s
 
 CMakeFiles/irdetect.dir/src/diffusion.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/diffusion.o.requires
@@ -301,17 +301,17 @@ CMakeFiles/irdetect.dir/src/meanvalue.o: /opt/ros/fuerte/share/rosservice/manife
 CMakeFiles/irdetect.dir/src/meanvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/meanvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/meanvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/meanvalue.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/meanvalue.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/meanvalue.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/meanvalue.o -c /home/darivianos/workspace/irdetect/src/meanvalue.cpp
 
 CMakeFiles/irdetect.dir/src/meanvalue.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/meanvalue.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/meanvalue.cpp > CMakeFiles/irdetect.dir/src/meanvalue.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/meanvalue.cpp > CMakeFiles/irdetect.dir/src/meanvalue.i
 
 CMakeFiles/irdetect.dir/src/meanvalue.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/meanvalue.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/meanvalue.cpp -o CMakeFiles/irdetect.dir/src/meanvalue.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/meanvalue.cpp -o CMakeFiles/irdetect.dir/src/meanvalue.s
 
 CMakeFiles/irdetect.dir/src/meanvalue.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/meanvalue.o.requires
@@ -347,17 +347,17 @@ CMakeFiles/irdetect.dir/src/importantvalue.o: /opt/ros/fuerte/share/rosservice/m
 CMakeFiles/irdetect.dir/src/importantvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/irdetect.dir/src/importantvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/irdetect.dir/src/importantvalue.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/importantvalue.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/importantvalue.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/importantvalue.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/importantvalue.o -c /home/darivianos/workspace/irdetect/src/importantvalue.cpp
 
 CMakeFiles/irdetect.dir/src/importantvalue.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/importantvalue.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/importantvalue.cpp > CMakeFiles/irdetect.dir/src/importantvalue.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/importantvalue.cpp > CMakeFiles/irdetect.dir/src/importantvalue.i
 
 CMakeFiles/irdetect.dir/src/importantvalue.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/importantvalue.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/importantvalue.cpp -o CMakeFiles/irdetect.dir/src/importantvalue.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/importantvalue.cpp -o CMakeFiles/irdetect.dir/src/importantvalue.s
 
 CMakeFiles/irdetect.dir/src/importantvalue.o.requires:
 .PHONY : CMakeFiles/irdetect.dir/src/importantvalue.o.requires
@@ -411,6 +411,6 @@ CMakeFiles/irdetect.dir/clean:
 .PHONY : CMakeFiles/irdetect.dir/clean
 
 CMakeFiles/irdetect.dir/depend:
-	cd /home/darivianos/workspace/sensesoar/highlevel/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles/irdetect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/darivianos/workspace/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build/CMakeFiles/irdetect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/irdetect.dir/depend
 
