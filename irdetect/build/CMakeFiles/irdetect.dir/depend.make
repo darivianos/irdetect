@@ -13,18 +13,6 @@ CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/include/opencv2/highgui/high
 CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/include/opencv2/imgproc/imgproc.hpp
 CMakeFiles/irdetect.dir/src/blob.o: /opt/ros/fuerte/include/opencv2/imgproc/types_c.h
 
-CMakeFiles/irdetect.dir/src/blobfinal.o: ../src/blobfinal.cpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/core.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/core_c.h
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/mat.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/operations.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/types_c.h
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/core/version.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/highgui/highgui.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/highgui/highgui_c.h
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/imgproc/imgproc.hpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/include/opencv2/imgproc/types_c.h
-
 CMakeFiles/irdetect.dir/src/contrast.o: ../include/irdetect/irdetect.h
 CMakeFiles/irdetect.dir/src/contrast.o: ../src/contrast.cpp
 CMakeFiles/irdetect.dir/src/contrast.o: /opt/ros/fuerte/include/opencv2/core/core.hpp

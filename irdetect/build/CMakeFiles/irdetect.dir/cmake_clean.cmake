@@ -6,7 +6,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/irdetect.dir/src/diffusion.o"
   "CMakeFiles/irdetect.dir/src/meanvalue.o"
   "CMakeFiles/irdetect.dir/src/importantvalue.o"
-  "CMakeFiles/irdetect.dir/src/blobfinal.o"
   "../lib/libirdetect.pdb"
   "../lib/libirdetect.so"
 )

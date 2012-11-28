@@ -368,52 +368,6 @@ CMakeFiles/irdetect.dir/src/importantvalue.o.provides: CMakeFiles/irdetect.dir/s
 
 CMakeFiles/irdetect.dir/src/importantvalue.o.provides.build: CMakeFiles/irdetect.dir/src/importantvalue.o
 
-CMakeFiles/irdetect.dir/src/blobfinal.o: CMakeFiles/irdetect.dir/flags.make
-CMakeFiles/irdetect.dir/src/blobfinal.o: ../src/blobfinal.cpp
-CMakeFiles/irdetect.dir/src/blobfinal.o: ../manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/roslang/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/roscpp/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/sensor_msgs/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/std_msgs/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/std_srvs/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/ros/core/rosbuild/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/roslib/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/rosconsole/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/pluginlib/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/message_filters/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/image_common/image_transport/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/vision_opencv/opencv2/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/vision_opencv/cv_bridge/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/rospy/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/vision_opencv/image_geometry/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/common_rosdeps/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/image_common/camera_calibration_parsers/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/share/rosservice/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
-CMakeFiles/irdetect.dir/src/blobfinal.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/irdetect.dir/src/blobfinal.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/irdetect.dir/src/blobfinal.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blobfinal.cpp
-
-CMakeFiles/irdetect.dir/src/blobfinal.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/irdetect.dir/src/blobfinal.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blobfinal.cpp > CMakeFiles/irdetect.dir/src/blobfinal.i
-
-CMakeFiles/irdetect.dir/src/blobfinal.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/irdetect.dir/src/blobfinal.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blobfinal.cpp -o CMakeFiles/irdetect.dir/src/blobfinal.s
-
-CMakeFiles/irdetect.dir/src/blobfinal.o.requires:
-.PHONY : CMakeFiles/irdetect.dir/src/blobfinal.o.requires
-
-CMakeFiles/irdetect.dir/src/blobfinal.o.provides: CMakeFiles/irdetect.dir/src/blobfinal.o.requires
-	$(MAKE) -f CMakeFiles/irdetect.dir/build.make CMakeFiles/irdetect.dir/src/blobfinal.o.provides.build
-.PHONY : CMakeFiles/irdetect.dir/src/blobfinal.o.provides
-
-CMakeFiles/irdetect.dir/src/blobfinal.o.provides.build: CMakeFiles/irdetect.dir/src/blobfinal.o
-
 # Object files for target irdetect
 irdetect_OBJECTS = \
 "CMakeFiles/irdetect.dir/src/blob.o" \
@@ -422,8 +376,7 @@ irdetect_OBJECTS = \
 "CMakeFiles/irdetect.dir/src/histogram.o" \
 "CMakeFiles/irdetect.dir/src/diffusion.o" \
 "CMakeFiles/irdetect.dir/src/meanvalue.o" \
-"CMakeFiles/irdetect.dir/src/importantvalue.o" \
-"CMakeFiles/irdetect.dir/src/blobfinal.o"
+"CMakeFiles/irdetect.dir/src/importantvalue.o"
 
 # External object files for target irdetect
 irdetect_EXTERNAL_OBJECTS =
@@ -435,7 +388,6 @@ irdetect_EXTERNAL_OBJECTS =
 ../lib/libirdetect.so: CMakeFiles/irdetect.dir/src/diffusion.o
 ../lib/libirdetect.so: CMakeFiles/irdetect.dir/src/meanvalue.o
 ../lib/libirdetect.so: CMakeFiles/irdetect.dir/src/importantvalue.o
-../lib/libirdetect.so: CMakeFiles/irdetect.dir/src/blobfinal.o
 ../lib/libirdetect.so: CMakeFiles/irdetect.dir/build.make
 ../lib/libirdetect.so: CMakeFiles/irdetect.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../lib/libirdetect.so"
@@ -452,7 +404,6 @@ CMakeFiles/irdetect.dir/requires: CMakeFiles/irdetect.dir/src/histogram.o.requir
 CMakeFiles/irdetect.dir/requires: CMakeFiles/irdetect.dir/src/diffusion.o.requires
 CMakeFiles/irdetect.dir/requires: CMakeFiles/irdetect.dir/src/meanvalue.o.requires
 CMakeFiles/irdetect.dir/requires: CMakeFiles/irdetect.dir/src/importantvalue.o.requires
-CMakeFiles/irdetect.dir/requires: CMakeFiles/irdetect.dir/src/blobfinal.o.requires
 .PHONY : CMakeFiles/irdetect.dir/requires
 
 CMakeFiles/irdetect.dir/clean:

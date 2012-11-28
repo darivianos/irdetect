@@ -13,18 +13,6 @@ CMakeFiles/irdetect.dir/src/blob.o
  /opt/ros/fuerte/include/opencv2/highgui/highgui_c.h
  /opt/ros/fuerte/include/opencv2/imgproc/imgproc.hpp
  /opt/ros/fuerte/include/opencv2/imgproc/types_c.h
-CMakeFiles/irdetect.dir/src/blobfinal.o
- /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/blobfinal.cpp
- /opt/ros/fuerte/include/opencv2/core/core.hpp
- /opt/ros/fuerte/include/opencv2/core/core_c.h
- /opt/ros/fuerte/include/opencv2/core/mat.hpp
- /opt/ros/fuerte/include/opencv2/core/operations.hpp
- /opt/ros/fuerte/include/opencv2/core/types_c.h
- /opt/ros/fuerte/include/opencv2/core/version.hpp
- /opt/ros/fuerte/include/opencv2/highgui/highgui.hpp
- /opt/ros/fuerte/include/opencv2/highgui/highgui_c.h
- /opt/ros/fuerte/include/opencv2/imgproc/imgproc.hpp
- /opt/ros/fuerte/include/opencv2/imgproc/types_c.h
 CMakeFiles/irdetect.dir/src/contrast.o
  ../include/irdetect/irdetect.h
  /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/contrast.cpp

@@ -21,7 +21,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
-rosbuild_add_library(irdetect src/blob.cpp src/graylevels.cpp src/contrast.cpp src/histogram.cpp src/diffusion.cpp src/meanvalue.cpp src/importantvalue.cpp src/blobfinal.cpp)
+rosbuild_add_library(irdetect src/blob.cpp src/graylevels.cpp src/contrast.cpp src/histogram.cpp src/diffusion.cpp src/meanvalue.cpp src/importantvalue.cpp)
 rosbuild_add_executable(testirdetect src/IRdetect.cpp)
 target_link_libraries(testirdetect irdetect)
 

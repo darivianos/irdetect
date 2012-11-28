@@ -347,21 +347,6 @@ src/blob.s:
 .PHONY : src/blob.s
 
 # target to build an object file
-src/blobfinal.o:
-	$(MAKE) -f CMakeFiles/irdetect.dir/build.make CMakeFiles/irdetect.dir/src/blobfinal.o
-.PHONY : src/blobfinal.o
-
-# target to preprocess a source file
-src/blobfinal.i:
-	$(MAKE) -f CMakeFiles/irdetect.dir/build.make CMakeFiles/irdetect.dir/src/blobfinal.i
-.PHONY : src/blobfinal.i
-
-# target to generate assembly for a file
-src/blobfinal.s:
-	$(MAKE) -f CMakeFiles/irdetect.dir/build.make CMakeFiles/irdetect.dir/src/blobfinal.s
-.PHONY : src/blobfinal.s
-
-# target to build an object file
 src/contrast.o:
 	$(MAKE) -f CMakeFiles/irdetect.dir/build.make CMakeFiles/irdetect.dir/src/contrast.o
 .PHONY : src/contrast.o
@@ -482,9 +467,6 @@ help:
 	@echo "... src/blob.o"
 	@echo "... src/blob.i"
 	@echo "... src/blob.s"
-	@echo "... src/blobfinal.o"
-	@echo "... src/blobfinal.i"
-	@echo "... src/blobfinal.s"
 	@echo "... src/contrast.o"
 	@echo "... src/contrast.i"
 	@echo "... src/contrast.s"
