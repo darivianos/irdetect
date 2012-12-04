@@ -28,7 +28,7 @@ sstream
 algorithm
 -
 
-/home/darivianos/workspace/irdetect/src/IRdetect.cpp
+/home/darivianos/workspace/sensesoar/highlevel/irdetect/src/IRdetect.cpp
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp

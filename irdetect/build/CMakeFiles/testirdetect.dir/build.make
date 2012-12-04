@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/darivianos/workspace/irdetect
+CMAKE_SOURCE_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/darivianos/workspace/irdetect/build
+CMAKE_BINARY_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testirdetect.dir/depend.make
@@ -71,17 +71,17 @@ CMakeFiles/testirdetect.dir/src/IRdetect.o: /opt/ros/fuerte/share/rosservice/man
 CMakeFiles/testirdetect.dir/src/IRdetect.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/manifest.xml
 CMakeFiles/testirdetect.dir/src/IRdetect.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 CMakeFiles/testirdetect.dir/src/IRdetect.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/testirdetect.dir/src/IRdetect.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/testirdetect.dir/src/IRdetect.o -c /home/darivianos/workspace/irdetect/src/IRdetect.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/testirdetect.dir/src/IRdetect.o -c /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/IRdetect.cpp
 
 CMakeFiles/testirdetect.dir/src/IRdetect.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testirdetect.dir/src/IRdetect.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/irdetect/src/IRdetect.cpp > CMakeFiles/testirdetect.dir/src/IRdetect.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/IRdetect.cpp > CMakeFiles/testirdetect.dir/src/IRdetect.i
 
 CMakeFiles/testirdetect.dir/src/IRdetect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testirdetect.dir/src/IRdetect.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/irdetect/src/IRdetect.cpp -o CMakeFiles/testirdetect.dir/src/IRdetect.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/IRdetect.cpp -o CMakeFiles/testirdetect.dir/src/IRdetect.s
 
 CMakeFiles/testirdetect.dir/src/IRdetect.o.requires:
 .PHONY : CMakeFiles/testirdetect.dir/src/IRdetect.o.requires
@@ -118,6 +118,6 @@ CMakeFiles/testirdetect.dir/clean:
 .PHONY : CMakeFiles/testirdetect.dir/clean
 
 CMakeFiles/testirdetect.dir/depend:
-	cd /home/darivianos/workspace/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build/CMakeFiles/testirdetect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/darivianos/workspace/sensesoar/highlevel/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles/testirdetect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testirdetect.dir/depend
 

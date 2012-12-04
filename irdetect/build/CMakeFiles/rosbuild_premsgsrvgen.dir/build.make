@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/darivianos/workspace/irdetect
+CMAKE_SOURCE_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/darivianos/workspace/irdetect/build
+CMAKE_BINARY_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect/build
 
 # Utility rule file for rosbuild_premsgsrvgen.
 
@@ -57,6 +57,6 @@ CMakeFiles/rosbuild_premsgsrvgen.dir/clean:
 .PHONY : CMakeFiles/rosbuild_premsgsrvgen.dir/clean
 
 CMakeFiles/rosbuild_premsgsrvgen.dir/depend:
-	cd /home/darivianos/workspace/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build/CMakeFiles/rosbuild_premsgsrvgen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/darivianos/workspace/sensesoar/highlevel/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles/rosbuild_premsgsrvgen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosbuild_premsgsrvgen.dir/depend
 

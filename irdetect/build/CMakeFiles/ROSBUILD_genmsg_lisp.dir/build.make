@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/darivianos/workspace/irdetect
+CMAKE_SOURCE_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/darivianos/workspace/irdetect/build
+CMAKE_BINARY_DIR = /home/darivianos/workspace/sensesoar/highlevel/irdetect/build
 
 # Utility rule file for ROSBUILD_genmsg_lisp.
 
@@ -57,6 +57,6 @@ CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend:
-	cd /home/darivianos/workspace/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build /home/darivianos/workspace/irdetect/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/darivianos/workspace/sensesoar/highlevel/irdetect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build /home/darivianos/workspace/sensesoar/highlevel/irdetect/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend
 

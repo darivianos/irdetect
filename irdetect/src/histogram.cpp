@@ -9,7 +9,7 @@ using namespace cv;
 
 void histogram(Mat& Image,Mat& TempImage)
 {
-	int grayl = 8; //Lloyd Max gray level quantization (eight levels are enough to get a good approximation)
+	int grayl = 6; //Lloyd Max gray level quantization (eight levels are enough to get a good approximation)
 	int RepGray[grayl];
 	int Thres[grayl+1];
 	float Mean = meanvalue(Image);
