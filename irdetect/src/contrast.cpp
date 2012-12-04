@@ -19,8 +19,8 @@ void contrast(Mat& Image,int grayl,int* RepGray)
 	// Linear Stretching to enhance contrast in the image
 	int MaxIntensity = *(RepGray+grayl-1);
 	int MinIntensity = *(RepGray);
-	cout << "Max Intensity : " << MaxIntensity << endl  ;
-	cout << "Min Intensity : " << MinIntensity << endl;
+	//cout << "Max Intensity : " << MaxIntensity << endl  ;
+	//cout << "Min Intensity : " << MinIntensity << endl;
 
 	for(i=0;i<nRows;++i)
 	{

@@ -148,7 +148,7 @@ void blob( Mat& Image){
 		int coldist = maxcol - mincol;
 		int rowdist = maxrow - minrow;
 
-		if( (int)RegionPixels.size() > 70 || (int)RegionPixels.size() < 5){
+		if( (int)RegionPixels.size() > 100 || (int)RegionPixels.size() < 5){
 			for(it = RegionPixels.begin(); it != RegionPixels.end() ; it++){
 				uchar* temp = Image.ptr<uchar>((int)(*it).first); //set intensity of all pixels of that region to zero.
 				temp += (*it).second;
@@ -162,6 +162,6 @@ void blob( Mat& Image){
 	for(lk = ToBeErased.begin();lk!=ToBeErased.end();lk++){
 		regions.erase(*lk);
 	}
-	for(iter = regions.begin(); iter != regions.end(); iter++)
-			cout << "Region: " << (*iter).first << endl << "Size: " << (int)(*iter).second.size() << endl;
+//	for(iter = regions.begin(); iter != regions.end(); iter++)
+//			cout << "Region: " << (*iter).first << endl << "Size: " << (int)(*iter).second.size() << endl;
 }

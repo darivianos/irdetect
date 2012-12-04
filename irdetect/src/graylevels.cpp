@@ -24,7 +24,8 @@ void graylevels(Mat& Image,int NumGrayLevels,int* RepGray,int* Thres)
 	int i,j,k;
 	int MaxIntensity = 0;
 	int MinIntensity = 255;
-	float HistInt[256] = {0.0}; // Initialize Histogram
+	float HistIntOld[256] = {0.0}; // Initialize Histogram
+	float HistInt[128] = {0.0};
 	for(i=0;i<nRows;++i)
 	{
 		p = TempImage.ptr<uchar>(i);
@@ -38,10 +39,15 @@ void graylevels(Mat& Image,int NumGrayLevels,int* RepGray,int* Thres)
 				MinIntensity = p[j];
 			// Now calculate the histogram (don't care about zero intensity)
 			if (p[j]!= 0){
-				HistInt[p[j]] += 1;
+				HistIntOld[p[j]] += 1;
 			}
 		}
 	}
+	// Apply Max-Lloyd algorithm in an 64 bin Histogram
+	for(i = 0; i < 128 ; i++)
+		HistInt[i] = HistIntOld[2*i] + HistIntOld[2*i+1];
+	MaxIntensity = MaxIntensity/2;
+	MinIntensity = MinIntensity/2;
 
 	//Representatives and thresholds conditions
 	for(i=0;i<NumGrayLevels;i++)
@@ -78,14 +84,18 @@ void graylevels(Mat& Image,int NumGrayLevels,int* RepGray,int* Thres)
 
 	}while(flag == 1);
 
-	cout << "Representatives:" << endl;
-	for(i=0;i<NumGrayLevels;i++)
-		cout << "\t" << *(RepGray + i);
+//	cout << "Representatives:" << endl;
+	for(i=0;i<NumGrayLevels;i++){
+		*(RepGray + i) = *(RepGray + i) * 2;
+//		cout << "\t" << *(RepGray + i);
+	}
 	cout << endl;
 
-	cout << "Thresholds:" << endl;
-	for(i=0;i<NumGrayLevels+1;i++)
-		cout << "\t"<< *(Thres + i);
+//	cout << "Thresholds:" << endl;
+	for(i=0;i<NumGrayLevels+1;i++){
+		*(Thres + i) = *(Thres + i) * 2;
+//		cout << "\t"<< *(Thres + i);
+	}
 	cout << endl;
 
 
