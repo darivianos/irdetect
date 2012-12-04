@@ -5,7 +5,7 @@ CMakeFiles/testirdetect.dir/src/IRdetect.o
  ../include/irdetect/image_io.h
  ../include/irdetect/irdetect.h
  ../include/irdetect/sort_comp.h
- /home/darivianos/workspace/sensesoar/highlevel/irdetect/src/IRdetect.cpp
+ /home/darivianos/workspace/irdetect/src/IRdetect.cpp
  /opt/ros/fuerte/include/opencv2/core/core.hpp
  /opt/ros/fuerte/include/opencv2/core/core_c.h
  /opt/ros/fuerte/include/opencv2/core/mat.hpp
