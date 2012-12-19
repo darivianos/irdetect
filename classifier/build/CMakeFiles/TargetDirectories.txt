@@ -1,0 +1,15 @@
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/clean-test-results.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/rosbuild_precompile.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/rospack_genmsg.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/rospack_gensrv.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/test.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/test-future.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/test-results.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/test-results-run.dir
+/home/darivianos/workspace/sensesoar/highlevel/classifier/build/CMakeFiles/tests.dir

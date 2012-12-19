@@ -1,0 +1,16 @@
+<package>
+  <description brief="classifier">
+
+     classifier
+
+  </description>
+  <author>darivianos</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/classifier</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+
